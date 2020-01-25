@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Login</title>
+<style>
+@media only screen and (min-width:200px)
+{
+#btn
+{
+padding:10px 20px;
+margin:5px;
+color:white;
+background-color:#99ff66;
+cursor:pointer;
+}
+#container
+{
+border:1px solid blue;
+padding:20px;
+box-shadow:10px white;
+margin-top:40px;
+background-color:rgba(0,0,0,0.5);
+height:350px;
+transition-duration:1s;
+display:none;
+width:350px;
+}
+body
+{
+background-repeat:no-repeat;
+background-size:cover;
+}
+b
+{
+color:black;
+}
+p
+{
+color:black;
+cursor:pointer;
+}
+#ul
+{
+color:white;
+}
+#bld
+{
+text-shadow:2px;
+background-color:#ccff99;
+}
+#bb
+{
+color:green;
+}
+hr
+{
+color:yellow;
+}
+h2
+{
+color:yellow;
+}
+.inpt
+{
+padding:10px 10px;
+color:black;
+}
+#btn1,#btn
+{
+background-color:#0000ff;
+color:white;
+margin:5px;
+padding:10px;
+}
+}
+</style>
+</head>
+<center>
+<body background="C:\Users\nc\Downloads\Shop.jpg">
+<button id="btn1" onclick="function2()">SignIn</button></br>
+<u><b><p>Online Shopping</p></b></u>
+<div id="container">
+<form>
+<h3>Login</h3>
+<b id="bld">Enter your Email</b></br>
+<input type="email"  pattern=".+@gmail.com"  placeholder="Enter your name" required class="inpt"> </br></br></br>
+<b id="bld">Enter your Password</b></br>
+<input type="text" placeholder="Enter password" required class="inpt"></br></br>
+<button id="btn">Login</button>
+<b><u id="ul"><p>Forgot Password?</p></u></b>
+<input type="checkbox"><u><b>By login you accept the terms and conditions.</b></u></br></br>
+</form>
+<label><p><b id="bb">New to Account</b></p></label>
+<hr>
+<a href="img.html"><button id="btn">Create an account</button></a>
+<script>
+function function2()
+{
+document.getElementById("container").style.display="block";
+}
+</script>
+</body>
+</center>
+</div>
+</html>

@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+@media only screen and (min-width:200px)
+{
+#container1
+{
+border:1px solid blue;
+padding:20px;
+margin-top:10px;
+background-color:rgba(0,0,0,0.5);
+height:650px;
+width:650px;
+}
+body
+{
+background-repeat:no-repeat;
+background-size:cover;
+}
+#btn
+{
+padding:10px 20px;
+margin:5px;
+color:white;
+background-color:#99ff66;
+cursor:pointer;
+}
+p
+{
+color:yellow;
+}
+.int
+{
+padding:10px;
+margin:5px;
+}
+h2
+{
+color:white;
+}
+}
+</style>
+</head>
+<center>
+<body background="C:\Users\nc\Downloads\Shop.jpg">
+<div id="container1">
+<form onsubmit="function2()">
+<u><h2>WELCOME TO OUR SITE</h2></u>
+<div id="div1"><b><p>ENTER DETAILS</p></b></div>
+<b><p>Valid Email</p></b>
+<input type="email" class="int" pattern=".+@gmail.com" placeholder="Enter a valid email" required></br>
+<b><p>First name</p></b>
+<input type="text" class="int" placeholder="Enter your first name" required</br>
+<b><p>Last name</p></b>
+<input type="text" class="int" placeholder="Enter your last name" required></br>
+<b><p>Create Strong Password</p></b>
+<input type="text" class="int" placeholder="Enter your password" required></br>
+<b><p>Confirm
+ Password</p></b>
+<input type="text" class="int" placeholder="Enter again" required></br></br>
+<button id="btn" type="submit">Create Account</button></br>
+</form>
+</div>
+<b style="color:blue">Already have an account</b><hr><a href="Loginpage.html"><u><button>Log In</button></u></a>
+<script>
+function function2()
+{
+alert("Your account has been created.");
+}
+</script>
+</body>
+</center>
+</html>
